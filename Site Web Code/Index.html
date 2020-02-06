@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="fr">
+<!-- 
+______ ___  ___    ___ __ _______
+\__   _\  \ \  \  /  /    \   ___\
+   \  \ \  \ \  \/  /  /\  \  \___
+    \  \ \  \ \    /  ____  \___  \
+   __\  \_\  \_/  /  /    \  \__\  \
+   \_______\__/__/__/      \________\
+-->
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>TSOW</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" type="image/png" href="img/icon.png"/>
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+</head>
+<body>
+        <!-- Start Menu -->
+        <div class="nav-bar">
+            <div class="logo">
+                <a href="#"><img src="img/alogo.png"></a>
+            </div>
+        <div class="menu" id="nav-links">
+            <i class="fa fa-close" onclick="closeMenu()"></i>
+            <ul>
+                <li><a href="#1">Sujets</a></li>
+                <li><a href="#4">Créé Par</a></li>
+                <li><a href="#">Qui sommes nous?</a></li>
+                <li><a href="#2">Contactez-nous</a></li>
+                <li id="zbtn"><a href="#"><button type="button" class="btn">Sign in</button></a></li>
+            </ul>
+        </div>
+        <i class="fa fa-bars" onclick="showMenu()"></i>
+    </div>
+
+        <!-- End Menu -->
+        <div class="couverture">
+            <div class="text-header">
+                <h1>TOGETHER TO <br>SAVE OUR <span>WORLD</span></h1>
+                <p>TSOW ("Together to Save Our World") est une association chargée d'apporter<br> une aide humanitaire et de développement aux enfants du monde<br> entier, et de rechercher des solutions aux problèmes naturels.</p>
+            </div>
+            <a href="#1">
+                <div class="center1">
+                    <div class="down1"></div>
+                </div>  
+            </a>
+        </div>
+            <h2 id="1">Sujets</h2>
+            <div class="sec3">
+                    <img class="pro-img" id="sdf" src="img/Pic1.jpg">
+                    <div id="A1">
+                        <h1>Changement climatique</h1>
+                        <p>Le changement climatique est un fléau dangereux pour Tous les êtres vivants sur Terre, Et cela a de graves conséquences. Notre travail est d'éliminer tout les causes de ce phénomène.</p>
+                    </div>
+            </div>
+        <div class="sec3">
+                    <div id="R1">
+                        <h1>Pauvreté</h1>
+                        <p>Il y a beaucoup de sans-abri souffrent de la pauvreté dans le monde qui ont besoin d'aide, Notre objectif est d'aider ce categorie de gens, Pour une vie meilleure.
+                        </p>
+                    </div>
+                    <img class="pro-img" id="sdf" name="dif" src="img/poor.jpg">
+        </div>
+        <div class="sec3">
+                    <img class="pro-img" id="sdf" src="img/Pic2.jpg"> 
+                    <div id="A1">
+                        <h1>Éducation des filles aux villages</h1>
+                        <p>Il y a plusieurs raisons pour lesquelles filles ne peuvent pas étudier, peut-être que l'école est loin ou ..., Notre mission est de donner des filles aux villages la possibilité pour éducation.
+                        </p>
+                    </div>
+        </div>
+        <div class="ilyass">
+            <h2 id="4">Créé par</h2>
+            <table>
+                <tr>
+                    <th> <img class="pro-img" id="sdf" src="img/created.jpg">  </th>
+                </tr>
+                <tr>
+                    <th>
+                        <h1>Ilyass Benhadda</h1>
+                        <p>ILYASS BENHADDA 18 ans, né au Maroc Tan-tan. Il a été créé T.S.O.W en 2020, en tant qu'association mondiale pour chargée d'apporter une aide humanitaire et de développement aux enfants du monde entier, et de rechercher des solutions aux problèmes naturels (Désertification ...). 
+                        </p>
+                    </th>
+                </tr>
+            </table>
+        </div>
+        <div class="sedex">
+            <h2 id="2">Contactez-nous</h2>
+            <form>
+                <input class="zer" type="username" placeholder="Full name">
+                <select>
+                    <option>- Genre -</option>
+                    <option>M.</option>
+                    <option>Mme</option>
+                    <option>Other</option>
+                </select>
+                <input class="email-bar" type="email" placeholder="Email">
+                <textarea placeholder="écrivez votre message..."></textarea>
+                    <div class="bala"> 
+                        <input class="box" type="checkbox">
+                        <label>Are you sure!</label>
+                    </div>
+                <input type="button" value="sent">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3374.3852696696704!2d-8.52400188543169!3d32.24771478113512!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xdaefdf7a5abd215%3A0xf838facafb432e7b!2sYoucode!5e0!3m2!1sen!2sma!4v1579436170400!5m2!1sen!2sma" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
+            </form>
+        </div>
+    </div>
+    <footer>Copyright © 2020, All rights reserved</footer>
+    <script>
+        var show = document.getElementById("nav-links");
+        function showMenu() {
+            show.style.right = "0"
+        }
+        function closeMenu() {
+            show.style.right = "-210px"
+        }
+    </script>
+</body>
+</html>
